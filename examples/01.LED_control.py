@@ -1,3 +1,9 @@
+'''
+# GPIO 동작 테스트 프로그램
+# > 20,21번 GPIO에 연결된 LED 두개를 번갈아 가며 켜 줍니다. (5회 반복)
+#
+# 제작 : eleparts / yeon
+'''
 import RPi.GPIO as GPIO
 import time
 
