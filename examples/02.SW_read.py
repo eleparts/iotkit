@@ -12,8 +12,8 @@ import time
 GPIO.setmode(GPIO.BCM)
 
 # LED가 연결된 GPIO번호
-LED_A = 20
-LED_B = 21
+LED_A = 20 # 초록색
+LED_B = 21 # 빨간색
 
 # 스위치가 연결된 GPIO번호
 SW = 16
@@ -32,11 +32,11 @@ GPIO.setup(SW, GPIO.IN, GPIO.PUD_DOWN)
 # 스위치 읽기
 read_PIN = GPIO.input(SW)
 
-# SW핀이 눌리지 않은 상태인 경우 스위치가 눌러질때까지 대기하며 0.5초마다 SW정보 읽기
+# SW핀이 눌리지 않은 상태인 경우 스위치가 눌러질때까지 대기하며 0.3초마다 SW정보 읽기
 while not read_PIN:
 
-  # 0.5초 대기
-  time.sleep(0.5)
+  # 0.3초 대기
+  time.sleep(0.3)
 
   # 스위치 읽기
   read_PIN = GPIO.input(SW)

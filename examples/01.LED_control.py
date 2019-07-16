@@ -11,8 +11,8 @@ import time
 GPIO.setmode(GPIO.BCM)
 
 # LED가 연결된 GPIO번호
-LED_A = 20
-LED_B = 21
+LED_A = 20 # 초록색
+LED_B = 21 # 빨간색
 
 # LED가 연결돤 GPIO 출력 핀으로 설정 
 GPIO.setup(LED_A, GPIO.OUT)
