@@ -9,3 +9,6 @@ git clone https://github.com/eleparts/blynk_python_GPIO ./blynk_examples/blynk_p
 
 echo "cp blynk_python_GPIO_V2.py"
 cp ./blynk_examples/blynk_python_GPIO_V2.py ./blynk_examples/blynk_python_GPIO/blynk_python_GPIO_V2.py
+
+echo "git clone blynk_python_PMS7003 example -> ./blynk_examples/blynk_python_PMS7003"
+git clone https://github.com/eleparts/blynk_python_PMS7003 ./blynk_examples/blynk_python_PMS7003
