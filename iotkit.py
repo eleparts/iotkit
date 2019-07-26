@@ -7,6 +7,23 @@
 > H/W 연결 참고
 https://github.com/eleparts/iotkit/tree/master/hardware
 
+GPIO 20 : LED 
+GPIO 21 : LED
+GPIO 18 : RELAY
+GPIO 16 : S/W
+
+> Blynk 위젯 설정
+
+V1 : Button / MODE : SWITCH
+V2 : Button / MODE : SWITCH
+V3 : Value Display / READING RATE : 1sec
+V4 : LED
+V5 : Button / MODE : SWITCH
+V6 : LED
+V7 : Value Display or Labeled Value / READING RATE : PUSH
+V8 : Value Display or Labeled Value / READING RATE : PUSH
+V9 : Value Display or Labeled Value / READING RATE : PUSH
+
 기반 코드 및 필수 라이브러리 - blynk / python (Blynk Python Library V0.2.4)
 https://github.com/blynkkk/lib-python
 """
