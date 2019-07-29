@@ -48,17 +48,17 @@ IOTKIT에 포함된 먼지센서 및 릴레이보드, LED와 SW를 blynk를 이�
 ## usermenual  
   
 본 저장소의 예제코드 및 IOT KIT에 대한 사용법 가이드북입니다.  
--[사용자 가이드](https://www.eleparts.co.kr/data/_gextends/good-pdf/201907/good-pdf-7705965-1.pdf)  
+- [사용자 가이드](https://www.eleparts.co.kr/data/_gextends/good-pdf/201907/good-pdf-7705965-1.pdf)  
 
 ## 참고자료 - 엘레파츠 블로그
   
--[라즈베리파이에서 blynk 파이썬 버전 사용하기 - 01.앱 다운로드 및 동작 테스트](https://blog.naver.com/elepartsblog/221590120617)  
+- [라즈베리파이에서 blynk 파이썬 버전 사용하기 - 01.앱 다운로드 및 동작 테스트](https://blog.naver.com/elepartsblog/221590120617)  
   
--[라즈베리파이에서 blynk 파이썬 버전 사용하기 - 02. 스마트폰으로 GPIO 원격 제어하기](https://blog.naver.com/elepartsblog/221592159830)  
+- [라즈베리파이에서 blynk 파이썬 버전 사용하기 - 02. 스마트폰으로 GPIO 원격 제어하기](https://blog.naver.com/elepartsblog/221592159830)  
   
--[라즈베리파이에서 blynk 파이썬 버전 사용하기 - 03. 먼지센서 데이터를 스마트폰으로 받아보기](https://blog.naver.com/elepartsblog/221594252948)  
+- [라즈베리파이에서 blynk 파이썬 버전 사용하기 - 03. 먼지센서 데이터를 스마트폰으로 받아보기](https://blog.naver.com/elepartsblog/221594252948)  
   
--[라즈베리파이용 3V 릴레이 사용하기](https://blog.naver.com/elepartsblog/221358322401)  
+- [라즈베리파이용 3V 릴레이 사용하기](https://blog.naver.com/elepartsblog/221358322401)  
   
--[라즈베리파이에서 PMS7003 먼지센서 사용하기](https://blog.naver.com/elepartsblog/221347040698)  
+- [라즈베리파이에서 PMS7003 먼지센서 사용하기](https://blog.naver.com/elepartsblog/221347040698)  
   
