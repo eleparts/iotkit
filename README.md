@@ -15,7 +15,7 @@
 추가로 blynk 예제를 실행하기 위해서 아래 명령어로 blynk 라이브러리를 다운로드 해 줍니다.
 > pip3 install blynklib  
   
- 만일 권한 문제로 다운로드 되지 않으면 앞에 sudo 를 붙여 실행해 줍니다.
+만일 권한 문제로 다운로드 되지 않으면 앞에 sudo 를 붙여 실행해 줍니다.
   
 ## start.sh  
   
@@ -37,28 +37,28 @@ GPIO 및 먼지센서 사용 테스트 예제가 저장되어 있습니다.
 ## blynk_examples
   
 blynk를 응용해 같이 사용하는 예제 코드가 저장되어 있습니다.  
-**start.sh**를 실행해 주셔야 다운로드됩니다.   
-start.sh 실행 시 내부 http://blynk_python_GPIO_V2.py 예제코드는 GPIO 디렉터리로 자동으로 복사됩니다.  
+**start.sh**를 실행해 주셔야 다운로드됩니다.  
+**start.sh** 실행 시 내부 http://blynk_python_GPIO_V2.py 예제코드는 GPIO 디렉터리로 자동으로 복사됩니다.  
   
 ## iotkit.py
   
 IOTKIT에 포함된 먼지센서 및 릴레이보드, LED와 SW를 blynk를 이용해 제어하는 예제 코드 파일입니다.  
-아래 사용자 메뉴얼을 따라 실행 해 주시면 됩니다.  
+아래 사용자 가이드를 따라 실행 해 주시면 됩니다.  
   
 ## usermenual  
   
 본 저장소의 예제코드 및 IOT KIT에 대한 사용법 가이드북입니다.  
-- [사용자 가이드](https://www.eleparts.co.kr/data/_gextends/good-pdf/201907/good-pdf-7705965-1.pdf)  
+-[사용자 가이드](https://www.eleparts.co.kr/data/_gextends/good-pdf/201907/good-pdf-7705965-1.pdf)  
 
 ## 참고자료 - 엘레파츠 블로그
   
-[라즈베리파이에서 blynk 파이썬 버전 사용하기 - 01.앱 다운로드 및 동작 테스트](https://blog.naver.com/elepartsblog/221590120617)  
+-[라즈베리파이에서 blynk 파이썬 버전 사용하기 - 01.앱 다운로드 및 동작 테스트](https://blog.naver.com/elepartsblog/221590120617)  
   
-[라즈베리파이에서 blynk 파이썬 버전 사용하기 - 02. 스마트폰으로 GPIO 원격 제어하기](https://blog.naver.com/elepartsblog/221592159830)  
+-[라즈베리파이에서 blynk 파이썬 버전 사용하기 - 02. 스마트폰으로 GPIO 원격 제어하기](https://blog.naver.com/elepartsblog/221592159830)  
   
-[라즈베리파이에서 blynk 파이썬 버전 사용하기 - 03. 먼지센서 데이터를 스마트폰으로 받아보기](https://blog.naver.com/elepartsblog/221594252948)  
+-[라즈베리파이에서 blynk 파이썬 버전 사용하기 - 03. 먼지센서 데이터를 스마트폰으로 받아보기](https://blog.naver.com/elepartsblog/221594252948)  
   
-[라즈베리파이용 3V 릴레이 사용하기](https://blog.naver.com/elepartsblog/221358322401)  
+-[라즈베리파이용 3V 릴레이 사용하기](https://blog.naver.com/elepartsblog/221358322401)  
   
-[라즈베리파이에서 PMS7003 먼지센서 사용하기](https://blog.naver.com/elepartsblog/221347040698)  
+-[라즈베리파이에서 PMS7003 먼지센서 사용하기](https://blog.naver.com/elepartsblog/221347040698)  
   
