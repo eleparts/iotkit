@@ -48,7 +48,7 @@ IOTKIT에 포함된 먼지센서 및 릴레이보드, LED와 SW를 blynk를 이�
 ## usermenual  
   
 본 저장소의 예제코드 및 IOT KIT에 대한 사용법 가이드북입니다.  
-- [사용자 가이드](https://www.eleparts.co.kr/data/_gextends/good-pdf/201907/good-pdf-7705965-1.pdf)  
+- [사용자 가이드](https://www.eleparts.co.kr/data/_gextends/good-pdf/201907/good-pdf-7705965-2.pdf)  
 
 ## 참고자료 - 엘레파츠 블로그
   
