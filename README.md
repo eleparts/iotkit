@@ -43,7 +43,7 @@ GPIO 및 먼지센서 사용 테스트 예제가 저장되어 있습니다.
   
 blynk를 응용해 같이 사용하는 예제 코드가 저장되어 있습니다.  
 **start.sh**를 실행해 주셔야 다운로드됩니다.  
-**start.sh** 실행 시 내부 http://blynk_python_GPIO_V2.py 예제코드는 GPIO 디렉터리로 자동으로 복사됩니다.  
+**start.sh** 실행 시 내부 blynk_python_GPIO_V2.py 예제코드는 GPIO 디렉터리로 자동으로 복사됩니다.  
   
 ## iotkit.py
   
