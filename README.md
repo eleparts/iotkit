@@ -5,10 +5,13 @@
 ## 라즈베리파이 IOT키트 V2.0 예제코드 사용법
   
 이하 예제 프로그램 사용을 위한 명령어 입니다.  
-> git clone https://github.com/eleparts/iotkit  
-> cd iotkit  
-> chmod +x start.sh  
-> ./start.sh  
+
+```bash
+git clone https://github.com/eleparts/iotkit  
+cd iotkit  
+chmod +x start.sh  
+./start.sh  
+```
   
 본 저장소를 clone하여 다운로드 한 뒤 같이 다운로드 된 스크립트 파일을 실행하여 나머지 예제 및 라이브러리를 다운로드 해 줍니다.
 
