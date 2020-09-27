@@ -16,8 +16,10 @@ chmod +x start.sh
 본 저장소를 clone하여 다운로드 한 뒤 같이 다운로드 된 스크립트 파일을 실행하여 나머지 예제 및 라이브러리를 다운로드 해 줍니다.
 
 추가로 blynk 예제를 실행하기 위해서 아래 명령어로 blynk 라이브러리를 다운로드 해 줍니다.
-> pip3 install blynklib  
-  
+```bash
+pip3 install blynklib  
+```
+
 만일 권한 문제로 다운로드 되지 않으면 앞에 sudo 를 붙여 실행해 줍니다.
   
 ## start.sh  
