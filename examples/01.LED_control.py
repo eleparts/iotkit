@@ -21,19 +21,19 @@ GPIO.setup(LED_B, GPIO.OUT)
 # 5회 반복
 for i in range(5): 
 
-  # LED A 켜기, LED B 끄기
-  GPIO.output(LED_A , True)
-  GPIO.output(LED_B , False)
+    # LED A 켜기, LED B 끄기
+    GPIO.output(LED_A , True)
+    GPIO.output(LED_B , False)
 
-  # 1초 대기
-  time.sleep(1)
+    # 1초 대기
+    time.sleep(1)
 
-  # LED A 켜기, LED B 끄기
-  GPIO.output(LED_A , False)
-  GPIO.output(LED_B , True)
+    # LED A 켜기, LED B 끄기
+    GPIO.output(LED_A , False)
+    GPIO.output(LED_B , True)
 
-  # 1초 대기
-  time.sleep(1)
+    # 1초 대기
+    time.sleep(1)
 
 
 # GPIO 설정 초기화

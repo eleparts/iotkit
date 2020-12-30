@@ -40,11 +40,11 @@ read_PIN = GPIO.input(SW)
 # SW핀이 눌리지 않은 상태인 경우 스위치가 눌러질때까지 대기하며 0.3초마다 SW정보 읽기
 while not read_PIN:
 
-  # 0.3초 대기
-  time.sleep(0.3)
+    # 0.3초 대기
+    time.sleep(0.3)
 
-  # 스위치 읽기
-  read_PIN = GPIO.input(SW)
+    # 스위치 읽기
+    read_PIN = GPIO.input(SW)
 
 
 # LED A, B 켜기
@@ -62,11 +62,11 @@ read_PIN = GPIO.input(SW)
 # SW핀이 눌리지 않은 상태인 경우 스위치가 눌러질때까지 대기하며 0.3초마다 SW정보 읽기
 while not read_PIN:
 
-  # 0.3초 대기
-  time.sleep(0.3)
+    # 0.3초 대기
+    time.sleep(0.3)
 
-  # 스위치 읽기
-  read_PIN = GPIO.input(SW)
+    # 스위치 읽기
+    read_PIN = GPIO.input(SW)
 
 # LED 끄기
 GPIO.output(LED_A , False)

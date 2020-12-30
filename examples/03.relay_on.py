@@ -26,5 +26,8 @@ time.sleep(5)
 # 릴레이 끄기 
 GPIO.output(RELAY , False)
 
+# 5초 대기
+time.sleep(5)
+
 # GPIO 설정 초기화
 GPIO.cleanup()
