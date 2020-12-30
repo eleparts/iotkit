@@ -5,16 +5,21 @@
 ## 라즈베리파이 IOT키트 V2.0 예제코드 사용법
   
 이하 예제 프로그램 사용을 위한 명령어 입니다.  
-> git clone https://github.com/eleparts/iotkit  
-> cd iotkit  
-> chmod +x start.sh  
-> ./start.sh  
+
+```bash
+git clone https://github.com/eleparts/iotkit  
+cd iotkit  
+chmod +x start.sh  
+./start.sh  
+```
   
 본 저장소를 clone하여 다운로드 한 뒤 같이 다운로드 된 스크립트 파일을 실행하여 나머지 예제 및 라이브러리를 다운로드 해 줍니다.
 
 추가로 blynk 예제를 실행하기 위해서 아래 명령어로 blynk 라이브러리를 다운로드 해 줍니다.
-> pip3 install blynklib  
-  
+```bash
+pip3 install blynklib  
+```
+
 만일 권한 문제로 다운로드 되지 않으면 앞에 sudo 를 붙여 실행해 줍니다.
   
 ## start.sh  
@@ -38,7 +43,7 @@ GPIO 및 먼지센서 사용 테스트 예제가 저장되어 있습니다.
   
 blynk를 응용해 같이 사용하는 예제 코드가 저장되어 있습니다.  
 **start.sh**를 실행해 주셔야 다운로드됩니다.  
-**start.sh** 실행 시 내부 http://blynk_python_GPIO_V2.py 예제코드는 GPIO 디렉터리로 자동으로 복사됩니다.  
+**start.sh** 실행 시 내부 blynk_python_GPIO_V2.py 예제코드는 GPIO 디렉터리로 자동으로 복사됩니다.  
   
 ## iotkit.py
   
