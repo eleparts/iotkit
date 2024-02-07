@@ -2,9 +2,9 @@
   
 본 저장소는 [라즈베리파이 IOT키트 V2.0](https://www.eleparts.co.kr/EPXMVGDB)의 예제 코드 및 관련 자료가 저장되어 있습니다.  
   
-## 라즈베리파이 IOT키트 V2.0 예제코드 사용법
+## 라즈베리파이 IOT키트 V2.0 예제코드 사용법  
   
-이하 예제 프로그램 사용을 위한 명령어 입니다.  
+아래는 예제 프로그램 사용을 위한 명령어 입니다.  
 
 ```bash
 git clone https://github.com/eleparts/iotkit  
@@ -15,16 +15,27 @@ chmod +x start.sh
   
 본 저장소를 clone하여 다운로드 한 뒤 같이 다운로드 된 스크립트 파일을 실행하여 나머지 예제 및 라이브러리를 다운로드 해 줍니다.
 
-추가로 blynk 예제를 실행하기 위해서 아래 명령어로 blynk 라이브러리를 다운로드 해 줍니다.
+라즈베리파이에서 blynk 예제를 실행하기 위해서 아래 명령어로 blynk2.0용 라이브러리를 다운로드 해 줍니다.  
+  
 ```bash
-pip3 install blynklib  
-```
+# 복제된 lynk-library-python 라이브러리
+git clone https://github.com/eleparts/blynk-library-python
+cd blynk-library-python
+sudo python setup.py install
+```  
+  
+[blynk-library-python 원본 라이브러리 저장소](https://github.com/vshymanskyy/blynk-library-python)  
 
-만일 권한 문제로 다운로드 되지 않으면 앞에 sudo 를 붙여 실행해 줍니다.
+라즈베리파이5를 사용한다면 아래 명령어로 pi5 GPIO 라이브러리를 설치해 줍니다.  
+
+```bash
+# 반드시 라즈베리파이 5 사용시에만 설치
+pip install --break-system-packages rpi-lgpio
+```
   
 ## start.sh  
   
-예제코드, 라이브러리 등을 자동으로 다운로드/각 디렉터리에 배치시켜 주는 스크립트 입니다.
+예제코드, 라이브러리 등을 자동으로 다운로드/각 디렉터리에 배치시켜 주는 스크립트 입니다.  
 예제 사용을 위해 처음 1회 실행시켜 주시면 됩니다.  
   
 ## hardware  
@@ -39,13 +50,13 @@ pip3 install blynklib
 GPIO 및 먼지센서 사용 테스트 예제가 저장되어 있습니다.  
 먼지 센서 예제는 **start.sh**를 실행해 주셔야 다운로드됩니다.  
   
-## blynk_examples
+## blynk_examples  
   
 blynk를 응용해 같이 사용하는 예제 코드가 저장되어 있습니다.  
 **start.sh**를 실행해 주셔야 다운로드됩니다.  
 **start.sh** 실행 시 내부 blynk_python_GPIO_V2.py 예제코드는 GPIO 디렉터리로 자동으로 복사됩니다.  
   
-## iotkit.py
+## iotkit.py  
   
 IOTKIT에 포함된 먼지센서 및 릴레이보드, LED와 SW를 blynk를 이용해 제어하는 예제 코드 파일입니다.  
 아래 사용자 가이드를 따라 실행 해 주시면 됩니다.  

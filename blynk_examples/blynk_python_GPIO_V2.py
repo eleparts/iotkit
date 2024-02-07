@@ -4,6 +4,9 @@
 * 제작 : eleparts 부설연구소
 * SW ver. 3.0.1
 
+> HW 연결 참조 - GPIO 연결 - LED 및 스위치 + 릴레이보드
+https://github.com/eleparts/iotkit/tree/master/hardware
+
 3.0.0 변경사항
 > blynk 2.0 대응 업데이트
 blynk-library-python 최신버전 v1.0.0 을 직접 받아 설치해야 합니다.
