@@ -73,7 +73,6 @@ blynk를 응용해 같이 사용하는 예제 코드가 저장되어 있습니�
 
 [AuthToken을 확인 가능한 Blynk 대시보드 페이지](https://blynk.cloud/dashboard/)  
 
-  
 ## iotkit.py  
   
 IOTKIT에 포함된 먼지센서 및 릴레이보드, LED와 SW를 blynk를 이용해 제어하는 전체 예제 코드 파일입니다.  
@@ -83,15 +82,10 @@ IOTKIT에 포함된 먼지센서 및 릴레이보드, LED와 SW를 blynk를 이�
 ## usermenual  
   
 본 저장소의 예제코드 및 IOT KIT에 대한 사용법 가이드북입니다.  
-- [가이드북 - 기본교재](https://www.eleparts.co.kr/data/_gextends/good-pdf/201908/good-pdf-7705965-2.pdf)  
 
+- [가이드북 - 기본교재](https://www.eleparts.co.kr/data/goods_attach/202403/good-pdf-7705965-2.pdf)  
+  
 ## 참고자료 - 엘레파츠 블로그
-  
-- [라즈베리파이에서 blynk 파이썬 버전 사용하기 - 01.앱 다운로드 및 동작 테스트](https://blog.naver.com/elepartsblog/221590120617)  
-  
-- [라즈베리파이에서 blynk 파이썬 버전 사용하기 - 02. 스마트폰으로 GPIO 원격 제어하기](https://blog.naver.com/elepartsblog/221592159830)  
-  
-- [라즈베리파이에서 blynk 파이썬 버전 사용하기 - 03. 먼지센서 데이터를 스마트폰으로 받아보기](https://blog.naver.com/elepartsblog/221594252948)  
   
 - [라즈베리파이용 3V 릴레이 사용하기](https://blog.naver.com/elepartsblog/221358322401)  
   
